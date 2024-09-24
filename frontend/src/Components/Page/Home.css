@@ -1,0 +1,41 @@
+:root {
+    --c1: 230px;
+    --c2: 200px;
+  }
+@keyframes circular-motion {
+    0% {
+      transform: rotate(0deg) translateX(var(--c1)) rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg) translateX(var(--c1)) rotate(-360deg);
+    }
+  }
+  
+  .circular-motion {
+    animation: circular-motion 5s linear infinite;
+  }
+  
+
+@keyframes c-mot {
+    0% {
+      transform: rotate(0deg) translateX(var(--c2)) rotate(0deg);
+    }
+    100% {
+      transform: rotate(-360deg) translateX(var(--c2)) rotate(360deg);
+    }
+  }
+  
+.c-mot {
+    animation: c-mot 5s linear infinite;
+}
+  
+
+
+@media (max-width: 640px) {
+    :root {
+      --c1: 125px;
+      --c2: 115px
+    }
+  }
+  
+  
