@@ -1,4 +1,7 @@
 
+https://github.com/user-attachments/assets/9c6e6b71-b050-4d25-b0e3-d22e28852cf0
+
+
 Portfolio Website
 This is a personal portfolio website built using React.js, Vite, and Tailwind CSS. The portfolio showcases projects, skills, and other details about me in a clean, interactive way. It includes features like resume downloading, email sending through Email.js, and hover effects with pop-up details.
 
@@ -45,7 +48,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/portfolio.git
+git clone (https://github.com/ARTIVARI/CodeAlpha-Frontend-Task-1-Portfolio.git)
 Navigate into the project directory:
 
 bash
