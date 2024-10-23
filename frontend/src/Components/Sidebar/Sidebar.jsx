@@ -62,18 +62,6 @@ const Sidebar =() => {
               </lord-icon>
               </button>
             </div>
-
-          
-          {/* admin page link */}
-          <div className='flex justify-center ' title='Admin'>
-              <button className='flex item-center  p-1 w-7'onClick={() => navigate('/signin')} >
-              <lord-icon
-                  src="https://cdn.lordicon.com/hrjifpbq.json"
-                  trigger="hover"
-                  colors="primary:#e8b730">
-              </lord-icon>
-              </button>
-            </div>
     </div>
   )
 }
