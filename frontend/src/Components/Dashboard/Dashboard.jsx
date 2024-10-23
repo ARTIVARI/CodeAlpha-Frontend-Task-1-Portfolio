@@ -7,9 +7,8 @@ import Skill from '../Page/Skill';
 import About from '../Page/About';
 import Project from '../Page/Project';
 import Contect from '../Page/Contect';
-import Admin from '../Page/Admin';
 import Error from '../Page/Error';
-import Login from '../Page/Login';
+
 
 const Dashboard = () => {
   return (
@@ -30,8 +29,6 @@ const Dashboard = () => {
                     <Route path='/skill' element={<Skill/>}></Route>
                     <Route path='/project' element={<Project/>}></Route>
                     <Route path='/contect' element={<Contect/>}></Route>
-                    <Route path='/signin' element={<Login/>}></Route>
-                      <Route path='/vyavasthaapakprist' element={<Admin/>}/>
                     <Route path='/*' element={<Error/>}></Route>
 
                 </Routes>

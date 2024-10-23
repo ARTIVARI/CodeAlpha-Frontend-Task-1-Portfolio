@@ -1,6 +1,18 @@
 import React from 'react'
 
 const Navebar = () => {
+  const leetcodeon  = () => {
+    window.open('https://leetcode.com/u/Arnavativari/', '_blank')
+  }
+
+  const linkdianon  = () => {
+    window.open('https://www.linkedin.com/in/arnava-tivari-063352292/', '_blank')
+  }
+
+  const githubon  = () => {
+    window.open('https://github.com/ARTIVARI', '_blank')
+  }
+
   return (
     <div className=' bg-black flex justify-between '>
         <div className=' flex flex-row gap-3 sm:gap-5'>
@@ -10,7 +22,7 @@ const Navebar = () => {
         <div className=' flex flex-row gap-2 '>
           {/* leetcode link in navbar */}
             <div className='flex justify-center '>
-              <button className='flex item-center  p-1 sm:w-8 w-7'>
+              <button className='flex item-center  p-1 sm:w-8 w-7' onClick={leetcodeon}>
               <lord-icon
                   src="https://cdn.lordicon.com/eodeknny.json"
                   trigger="hover"
@@ -21,23 +33,23 @@ const Navebar = () => {
 
             {/* linkedin link */}
             <div className='flex justify-center'>
-              <button className='flex item-center  p-1 sm:w-7 w-7'>
+              <button className='flex item-center  p-1 sm:w-7 w-7' onCanPlay={linkdianon}>
               <lord-icon
-                  src="https://cdn.lordicon.com/mdyiqybm.json"
-                  trigger="hover"
-                  colors="primary:#e8b730,secondary:#e8b730">
+                   src="https://cdn.lordicon.com/ftgjzwjn.json"
+                    trigger="hover"
+                    colors="primary:#e8b730,secondary:#ebe6ef">
               </lord-icon>
                   
               </button>
             </div>
 
-            {/* instagram link */}
+            {/* github link */}
             <div className='flex justify-center'>
-              <button className='flex item-center  p-1 sm:w-9 w-8 '>
+              <button className='flex item-center  p-1 sm:w-9 w-8 ' onClick={githubon}>
               <lord-icon
-                  src="https://cdn.lordicon.com/kqvibaec.json"
+                  src="https://cdn.lordicon.com/fzgrewpn.json"
                   trigger="hover"
-                  colors="primary:#e8e230,secondary:#ebfad1">
+                  colors="primary:#e8b730,secondary:#ffffff">
               </lord-icon>
                   
               </button>

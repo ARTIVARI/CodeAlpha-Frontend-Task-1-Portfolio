@@ -1,11 +1,8 @@
-export const validUser = {
-    email: 'artivari3700@gmail.com',
-    password: 'password1234'
-  };
+
 
 export const data = {
   // home page
-  resume:'',
+  
   homediscrip:'Passionate frontend developer with full-stack expertise, delivering unique and stunning designs for clients.',
 
   // about page

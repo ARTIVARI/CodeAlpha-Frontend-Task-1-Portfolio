@@ -17,7 +17,7 @@ const Home =() => {
     <div className='flex sm:flex-row flex-col-reverse sm:gap-3 gap-12'>
       <div className='flex-col basis-1/2 sm:mt-28 mt-1 sm:ml-10 ml-4'>
         <h1 className='font-mono pl-1'>Hi, I am Arnava Tivari</h1>
-        <h1 className='font-sans sm:text-6xl text-4xl font-extrabold'><span className='text-fuchsia-700'>Front</span>end / App
+        <h1 className='font-sans sm:text-6xl text-4xl font-extrabold'><span className='text-fuchsia-700'>Front</span>end
           <h1>Developer</h1>
         </h1>
         <p  className='font-mono pt-1 mt-3 sm:text-lg text-base'>
